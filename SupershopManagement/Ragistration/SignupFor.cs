@@ -35,7 +35,7 @@ namespace SupershopManagement.Ragistration
 
         private void label3_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            Application.Exit();
         }
 
        

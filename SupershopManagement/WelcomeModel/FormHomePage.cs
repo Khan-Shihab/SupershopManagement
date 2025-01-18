@@ -1,4 +1,5 @@
-﻿using SupershopManagement.Ragistration;
+﻿using SupershopManagement.login;
+using SupershopManagement.Ragistration;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -56,6 +57,13 @@ namespace SupershopManagement.WelcomeModel
         private void label3_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginPage loginPage = new LoginPage();
+            loginPage.Show();
         }
     }
 }

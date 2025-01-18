@@ -69,5 +69,15 @@ namespace SupershopManagement.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2025_01_16_at_00_21_39_d1b24996 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2025-01-16 at 00.21.39_d1b24996", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
