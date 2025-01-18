@@ -80,8 +80,7 @@ namespace SupershopManagement.Ragistration
         }
 
         private void contact_panel_Paint(object sender, PaintEventArgs e)
-        {
-
+        {//shihab gay
         }
     }
     
